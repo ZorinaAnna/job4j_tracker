@@ -16,10 +16,10 @@ public class Jukebox {
     }
 
     public static void main(String[] args) {
-        Jukebox Song = new Jukebox();
-        Song.music(1);
-        Song.music(2);
-        Song.music(3);
+        Jukebox song = new Jukebox();
+        song.music(1);
+        song.music(2);
+        song.music(3);
     }
 }
 
