@@ -6,7 +6,7 @@ public class Constructor {
     private int ssd; /* Поле=Атрибут */
     private String cpu; /* Поле=Атрибут */
 
-    // Конструктор с параметрами для инициализации полей
+    /* Конструктор с параметрами для инициализации полей */
     public Constructor(boolean multiMonitor, int ssd, String cpu) { /* Конструктор инициализирует поля класса значениями */
         this.multiMonitor = multiMonitor;
         this.ssd = ssd;
