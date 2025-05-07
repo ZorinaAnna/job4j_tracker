@@ -1,5 +1,4 @@
 public class Error {
-    // Поля класса
     private boolean active;
     private int status;
     private String message;
