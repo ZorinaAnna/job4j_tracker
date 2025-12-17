@@ -1,11 +1,11 @@
 package ru.job4j.oop;
 
-public class Triangle {
+public class Trigon {
     private Point first;
     private Point second;
     private Point third;
 
-    public Triangle(Point ap, Point bp, Point cp) {
+    public Trigon(Point ap, Point bp, Point cp) {
         this.first = ap;
         this.second = bp;
         this.third = cp;
@@ -32,5 +32,3 @@ public class Triangle {
         return -1;
     }
 }
-
-
